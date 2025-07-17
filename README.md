@@ -9,7 +9,6 @@ Ce projet vise à développer un système de classification automatique pour dé
 - **But** : Automatiser la détection du genre basée sur l'analyse des noms togolais
 - **Contexte** : Améliorer les processus de traitement des documents d'identité
 - **Approche** : Utilisation de modèles d'apprentissage automatique (RandomForest et CatBoost)
-- **Auteur** : Didi Orlog SOSSOU
 
 ## Méthodologie
 
@@ -90,20 +89,7 @@ print(f"Sexe de {nom_complet} : {'Homme' if genre_predit == 1 else 'Femme'}")
 # Sortie: Sexe de Ruth AYITTEY : Femme
 ```
 
-## Prérequis et Installation
-
-### Dépendances Requises
-
-```bash
-pip install pandas
-pip install scikit-learn
-pip install matplotlib
-pip install seaborn
-pip install catboost
-pip install jupyter
-```
-
-### Installation et Exécution
+## Installation et Exécution
 
 1. **Cloner le repository**
 ```bash
@@ -116,7 +102,7 @@ cd Gender_SOSSOU_Didi_Orlog_Project
 jupyter notebook Gender_SOSSOU_Didi_Orlog_Notebook.ipynb
 ```
 
-### Description des Fichiers
+## Description des Fichiers
 
 - **`Gender_SOSSOU_Didi_Orlog_Notebook.ipynb`** : Notebook Jupyter contenant l'intégralité du pipeline de machine learning
 - **`dataset_names.csv`** : Dataset principal avec colonnes `firstname`, `lastname`, `gender`
@@ -139,16 +125,8 @@ Le système extrait automatiquement plusieurs types de caractéristiques linguis
 - **RandomForest** : Robuste aux données bruitées, interprétable
 - **CatBoost** : Performance optimisée, gestion automatique des features catégorielles
 
-## Auteur et Licence
-
-### Auteur
+## Auteur
 **Didi Orlog SOSSOU**  
 Email : didisossou@gmail.com
-
-### Licence
-Ce projet est développé à des fins éducatives et de recherche. Pour toute utilisation commerciale ou redistribution, veuillez contacter l'auteur.
-
-### Contributions
-Les contributions, suggestions d'amélioration et rapports de bugs sont les bienvenus. N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
 ---
