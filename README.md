@@ -111,33 +111,9 @@ git clone https://github.com/LittleDarkBug/Gender_SOSSOU_Didi_Orlog_Project.git
 cd Gender_SOSSOU_Didi_Orlog_Project
 ```
 
-2. **Installer les dépendances**
-```bash
-pip install -r requirements.txt  # Si disponible
-# Ou installer manuellement les packages listés ci-dessus
-```
-
-3. **Lancer le notebook Jupyter**
+2. **Lancer le notebook Jupyter**
 ```bash
 jupyter notebook Gender_SOSSOU_Didi_Orlog_Notebook.ipynb
-```
-
-### Environnement Recommandé
-
-- Python 3.7+
-- Jupyter Notebook ou JupyterLab
-- 4GB+ RAM pour l'entraînement des modèles
-
-## Structure du Projet
-
-```
-Gender_SOSSOU_Didi_Orlog_Project/
-│
-├── README.md                                  # Documentation du projet
-├── Gender_SOSSOU_Didi_Orlog_Notebook.ipynb  # Notebook principal
-├── dataset_names.csv                         # Dataset d'entraînement
-├── test_dataset.csv                          # Dataset de test externe
-└── .git/                                     # Configuration Git
 ```
 
 ### Description des Fichiers
@@ -176,5 +152,3 @@ Ce projet est développé à des fins éducatives et de recherche. Pour toute ut
 Les contributions, suggestions d'amélioration et rapports de bugs sont les bienvenus. N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
 ---
-
-*Projet développé dans le cadre de l'amélioration des systèmes de traitement automatique des documents d'identité togolais.*
